@@ -1,0 +1,48 @@
+.logo {
+  font-family: Cormorant Garamond;
+  font-size: 2rem;
+  color: var(--primary-color) !important;
+}
+.menu-item {
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: Work Sans;
+}
+.menu-item:hover {
+  color: var(--link-active) !important;
+}
+.light-mode span {
+  color: rgba(255, 255, 255, 0.637);
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  font-size: 1rem;
+  font-family: Work Sans;
+  cursor: pointer;
+}
+.light-theme .light-mode span {
+  color: #000;
+  font-weight: 500;
+}
+/* .light-theme .menu-item {
+  font-weight: bold;
+} */
+/* scroll view */
+.header-shrink {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  height: 100% !important;
+  line-height: 60px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: 9999;
+  background: #0c123d;
+}
+.light-theme .header-shrink {
+  background: #f7f7f7;
+  box-shadow: 2px 2px 10px -2px #ddd;
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Redux",
+    "image": "https://i.ibb.co/LNF1GZ9/1-s6-WOBSIDNRPpl9g-VYWo6w.jpg",
+    "link": "https://medium.com/@sanjidanowrin11/redux-a73a2e80a3c1",
+    "detail": "Redux is a pattern and library for managing and updating application state, using events called “actions”.It serves as a centralized store for states that needs to be used across our entire application, with rules ensuring, that the state can only be updated in a predictable style. Redux requires code to be organized, making it consistent and easy to work with. Redux functions are small and isolated, making the code more independent and testable. Redux has a larger community, helping users with efficient and easy-to-use libraries."
+  },
+  {
+    "id": 2,
+    "name": "MONGOOSE",
+    "image": "https://i.ibb.co/hYgZ2Vd/1-v-K4-MHL-jp-KKm-UFGj-E5-H9jw.png",
+    "link": "https://medium.com/@sanjidanowrin11/mongoose-e17f0304ba14",
+    "detail": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.It’s an awesome tool for managing connection, schema, document relations, getting and more. Mongoose is the best way to work with a MongoDB database in Node.js and great choice for a NoSQL database.First, we need to ensure that we have Node installed already. We’ll need to set up our app a little. We need a package.json file to store our app’s configuration."
+  },
+  {
+    "id": 3,
+    "name": "CRUD Operations",
+    "image": "https://i.ibb.co/FnkDrrZ/1-2e-Bdh0v-LZj-Uy-CDF6x1-Eqv-Q.png",
+    "link": "https://medium.com/@sanjidanowrin11/crud-operations-1586c09e92e4",
+    "detail": "Node.js is an open source ,cross platform Javascript runtime environment and library for running web applications outside the client browser.It is used for creating server-side web applications.CRUD stands for Create, Read, Update, and Delete.Create : To insert any record to the database.Read : To retrieve records from the database.Update : To update a record in the database.Delete : To delete a record in the database."
+  },
+  {
+    "id": 4,
+    "name": "Props in JSX",
+    "image": "https://i.ibb.co/ZXLMd9r/cover.png",
+    "link": "https://medium.com/@sanjidanowrin11/props-in-jsx-9f361bb16f56",
+    "detail": "In React, ‘props’ is a special keyword that stands for properties and is used for passing data between components. There are several ways to define props in JSX.JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and appendChild() methods. JSX converts HTML tags into react elements. You are not required to use JSX, but JSX makes it easier to write React applications.React uses JSX for templating instead of regular JavaScript. It is not necessary to use it, however, following are some pros that come with it:"
+  },
+  {
+    "id": 5,
+    "name": "Javascript",
+    "image": "https://i.ibb.co/WGSptZ8/Learn-javascript-in-a-week.jpg",
+    "link": "https://medium.com/@sanjidanowrin11/truthy-and-falsy-values-null-vs-undefined-double-equal-vs-triple-equal-implicit-c40422a13ca6",
+    "detail": "JavaScript converts values to Boolean when needed such as when a value is used in a conditional.Booleans are TRUE and FALSE.Double equals and triple equals operators work exactly the same, but the double equals operator converts the types of the objects being compared to the same type. This sounds like a good thing at first, but it can cause some strange bugs to occur when comparing certain objects/types. Because of this the triple equals operator should almost always be used, except in the case of checking if an object is null or undefined."
+  },
+  {
+    "id": 6,
+    "name": "Hello, This blog is all about ES6",
+    "image": "https://i.ibb.co/8862ypL/Javascript-ES6.jpg",
+    "link": "https://medium.com/@sanjidanowrin11/hello-this-blog-is-all-about-es6-it-includes-all-the-topics-related-with-examples-8045d92e3c22",
+    "detail": "Hello, this blog is all about ES6.It includes all the topics related with examples.ES6 stands for ECMAScript 6.ECMAScript is a base language.ES6 brings solutions to some issues of JS.ES6 supports the “class” keyword for object oriented programming.Var in a javascript are functional scoped. Variables declared with “let & const” are block scoped. Var variables can be updated and re-declared within its scope.Let variables can be updated but not re-declared.Const variables can neither be updated nor re-declared."
+  },
+  {
+    "id": 7,
+    "name": "CSS Position",
+    "image": "https://i.ibb.co/tB5fBym/CSS-Position.jpg",
+    "link": "https://medium.com/@sanjidanowrin11/css-position-21cecd6d4ae0",
+    "detail": "The CSS position property defines the position of an element (static,relative,absolute,fixed or sticky).Extra Properties:Top,right,bottom,left properties are able to move elements in the direction of top,right,bottom,left.Z-index is another CSS positioning property.Z-index property specifies the stack order of an element.An element with greater stack order is always in front an element with lower stack order.Z-index only works in positioned elements."
+  }
+]
