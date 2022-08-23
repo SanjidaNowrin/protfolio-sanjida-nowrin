@@ -53,8 +53,14 @@ const Blogs = ({ theme, toggleTheme }) => {
                 alt="..."
               />
               <div className="card-body mt-3 d-flex flex-column">
-                <h5 className="card-title title">{name}</h5>
-                <p className="blog-desc">{detail.slice(0, 250)} ...</p>
+                <a
+                  href={link}
+                  target="_blank"
+                  className="mt-auto align-self-start"
+                >
+                  <h5 className="card-title title">{name}</h5>
+                  <p className="blog-desc">{detail.slice(0, 250)} ...</p>
+                </a>
                 <a
                   href={link}
                   target="_blank"
