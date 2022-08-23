@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Blogs from "./components/Blogs/Blogs";
 import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [theme, setTheme] = useState("");
@@ -20,6 +21,7 @@ function App() {
       <About theme={theme} toggleTheme={toggleTheme} />
       <Blogs theme={theme} toggleTheme={toggleTheme} />
       <Services theme={theme} toggleTheme={toggleTheme} />
+      <Contact theme={theme} toggleTheme={toggleTheme} />
     </>
   );
 }

@@ -26,9 +26,8 @@
 }
 .service-card h3 {
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--primary-color) !important;
-
   margin: 1em 0;
 }
 .service-card p {

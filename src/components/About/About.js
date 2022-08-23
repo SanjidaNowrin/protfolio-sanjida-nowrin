@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div className="container">
       <h1>
         repudiandae exercitationem qui, ab veritatis debitis aspernatur ipsam
         magnam. Porro consequuntur ipsa in tenetur cum aliquid similique
