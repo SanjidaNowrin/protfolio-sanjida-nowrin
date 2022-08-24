@@ -37,7 +37,7 @@ const Services = () => {
         <div className="service-column">
           <div className="service-card">
             <div className="icon-wrapper">
-              <i class="ri-server-fill"></i>
+              <i className="ri-server-fill"></i>
             </div>
             <h3>BACKEND DEVELOPMENT</h3>
             <p className="fw-bolder text-muted">

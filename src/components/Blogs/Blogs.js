@@ -54,6 +54,7 @@ const Blogs = ({ theme, toggleTheme }) => {
               />
               <div className="card-body mt-3 d-flex flex-column">
                 <a
+                  rel="noreferrer"
                   href={link}
                   target="_blank"
                   className="mt-auto align-self-start"
@@ -62,6 +63,7 @@ const Blogs = ({ theme, toggleTheme }) => {
                   <p className="blog-desc">{detail.slice(0, 250)} ...</p>
                 </a>
                 <a
+                  rel="noreferrer"
                   href={link}
                   target="_blank"
                   className="mt-auto align-self-start"

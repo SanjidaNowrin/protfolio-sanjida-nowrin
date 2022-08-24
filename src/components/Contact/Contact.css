@@ -6,7 +6,8 @@
 }
 
 .contact-info {
-  color: var(--primary-color) !important;
+  color: white;
+
   max-width: 500px;
   line-height: 65px;
   padding-left: 50px;
@@ -14,7 +15,7 @@
   font-weight: 500;
 }
 .contact-info :hover {
-  color: white;
+  color: var(--primary-color) !important;
 }
 .light-theme .contact-info {
   color: var(--primary-color) !important;
