@@ -6,7 +6,7 @@ import Blogs from "./components/Blogs/Blogs";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import FixedIcon from "./components/FixedIcon/FixedIcon";
-
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   const [theme, setTheme] = useState("");
   const toggleTheme = () => {
@@ -18,6 +18,16 @@ function App() {
   }, [theme]);
   return (
     <>
+      <ScrollToTop
+        style={{ backgroundColor: "#379cf6" }}
+        smooth
+        component={
+          <p className="text-orange-500 mt-1 text-white">
+            <i className="fas fa-angle-double-up fa-lg"></i>
+          </p>
+        }
+      />
+      {/* scroll bar end */}
       <Header theme={theme} toggleTheme={toggleTheme} />
       <About theme={theme} toggleTheme={toggleTheme} />
       <Blogs theme={theme} toggleTheme={toggleTheme} />

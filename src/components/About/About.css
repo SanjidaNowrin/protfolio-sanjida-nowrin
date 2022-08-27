@@ -1,0 +1,46 @@
+.nameTitle {
+  color: var(--primary-color) !important;
+  font-family: Work Sans;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.typed-text {
+  color: white;
+  font-size: 2rem;
+  font-family: Playfair Display;
+}
+.light-theme .typed-text {
+  color: black;
+}
+.aboutResume {
+  background: var(--counter-color) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+}
+.light-theme .aboutResume {
+  background: var(--counter-color) !important;
+}
+.resumeTitle {
+  font-family: Work Sans;
+  font-weight: 500;
+}
+.light-theme .resumeTitle {
+  color: white !important;
+}
+.aboutResume i {
+  background: #fff;
+  color: var(--primary-color);
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 0.3rem;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.aboutResume:hover i {
+  margin-left: 1rem;
+}

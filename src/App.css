@@ -58,6 +58,12 @@
   --card-bg:#fff;
   --testimonial-bg: #f7f7f7;
   --team-card-bg: #fff;
+  --counter-color: linear-gradient(
+    90deg,
+    #02bba6 30%,
+    rgba(29, 129, 176, 1) 55%,
+    rgba(35, 93, 173, 1) 75%
+  );
 }
 body{
   background: var(--body-bg);
