@@ -41,7 +41,7 @@ const SocialLinks = () => {
         target="_blank"
       >
         Resume
-        <i class="fas fa-user-circle"></i>
+        <i className="fas fa-user-circle"></i>
       </a>
       <a
         href="mailto:sanjidanowrin11@gmail.com"
@@ -49,7 +49,7 @@ const SocialLinks = () => {
         className="email"
         target="_blank"
       >
-        Email<i class="fas fa-envelope"></i>
+        Email<i className="fas fa-envelope"></i>
       </a>
       <a
         rel="noreferrer"

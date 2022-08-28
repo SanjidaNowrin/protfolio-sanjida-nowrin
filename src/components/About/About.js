@@ -5,7 +5,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="container">
-      <div className="row m-0  mt-5 align-items-center">
+      <div className="row m-0  mt-3 align-items-center">
         <div className="col-md-6 mt-5 mb-5">
           <img
             src="https://i.ibb.co/Jm194FF/20220518-142207-1.png"
@@ -52,7 +52,7 @@ const About = () => {
               className="resumeTitle text-uppercase"
             >
               Resume
-              <i class="fas fa-download"></i>
+              <i className="fas fa-download"></i>
             </a>
           </button>
         </div>

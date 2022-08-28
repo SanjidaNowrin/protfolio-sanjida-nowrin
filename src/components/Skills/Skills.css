@@ -1,0 +1,16 @@
+.skillsCard {
+  /* background: var(--body-bg) !important; */
+  /* box-shadow: inset -3px -3px 7px rgba(11, 41, 69, 1),
+    inset 3px 3px 5px rgba(15, 18, 61, 1);
+  border-radius: 2rem;
+  -webkit-filter: blur(0px); */
+  border-radius: 1rem !important;
+}
+.skill-title {
+  color: white !important;
+  font-family: Roboto;
+}
+
+.light-theme .skill-title {
+  color: var(--primary-color) !important;
+}

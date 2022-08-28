@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "img": "https://img.icons8.com/color/96/000000/html-5--v1.png",
+    "style": " 0px 4px 9px #E65100",
+    "title": "HTML5"
+  },
+  {
+    "id": "2",
+    "img": "https://img.icons8.com/color/96/000000/css3.png",
+    "style": "0px 4px 9px blue",
+    "title": "CSS3"
+  },
+  {
+    "id": "3",
+    "img": "https://img.icons8.com/color/96/000000/javascript--v1.png",
+    "style": " 0px 4px 9px yellow",
+    "title": "Javascript"
+  },
+  {
+    "id": "4",
+    "img": "https://img.icons8.com/color/96/000000/bootstrap.png",
+    "style": "0px 4px 9px #673AB7",
+    "title": "Bootstrap5"
+  },
+  {
+    "id": "5",
+    "img": "https://img.icons8.com/color/96/000000/tailwind_css.png",
+    "style": " 0px 4px 9px #00ACC1",
+    "title": "Tailwind CSS"
+  },
+  {
+    "id": "6",
+    "img": "https://img.icons8.com/color/96/000000/react-native.png",
+    "style": " 0px 4px 9px #80DEEA ",
+    "title": "React"
+  },
+  {
+    "id": "7",
+    "img": "https://img.icons8.com/color/96/000000/material-ui.png",
+    "style": " 0px 4px 9px #0288D1",
+    "title": "Material UI"
+  },
+  {
+    "id": "8",
+    "img": "https://img.icons8.com/color/96/000000/firebase.png",
+    "style": " 0px 4px 9px #FF6F00",
+    "title": "Firebase"
+  },
+  {
+    "id": "9",
+    "img": "https://img.icons8.com/nolan/96/api-settings.png",
+    "style": " 0px 4px 9px blue",
+    "title": "Rest Api"
+  },
+  {
+    "id": "10",
+    "img": "https://img.icons8.com/color/96/000000/redux.png",
+    "style": " 0px 4px 9px #7E57C2",
+    "title": "Redux"
+  },
+  {
+    "id": "11",
+    "img": "https://img.icons8.com/color/96/000000/nodejs.png",
+    "style": " 0px 4px 9px #4CAF50",
+    "title": "NodeJS"
+  },
+  {
+    "id": "12",
+    "img": "https://img.icons8.com/3d-fluency/96/000000/github.png",
+    "style": " 0px 4px 9px grey",
+    "title": "GitHub"
+  },
+  {
+    "id": "13",
+    "img": "https://img.icons8.com/color/96/000000/mongodb.png",
+    "style": " 0px 4px 9px #4CAF50",
+    "title": "MongoDB"
+  }
+]

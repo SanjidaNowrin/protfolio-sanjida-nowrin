@@ -105,6 +105,10 @@
   background: white !important;
   color: var(--primary-color) !important;
 }
+.light-theme .contact-form .send-btn:hover {
+  background: rgb(10, 9, 9) !important;
+  color: white !important;
+}
 
 @media screen and (max-width: 950px) {
   .contact-section {
