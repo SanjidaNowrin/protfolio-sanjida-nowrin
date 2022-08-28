@@ -34,11 +34,9 @@ const SocialLinks = () => {
         Facebook<i className=" fab fa-facebook-square"></i>
       </a>
       <a
-        download={true}
         rel="noreferrer"
         href="https://drive.google.com/uc?export=download&id=1gfSmIQTCtvOY3VlPItbiQMCrKs4-hwBs"
         className="resume"
-        target="_blank"
       >
         Resume
         <i className="fas fa-user-circle"></i>

@@ -8,8 +8,10 @@ import Contact from "./components/Contact/Contact";
 import FixedIcon from "./components/FixedIcon/FixedIcon";
 import ScrollToTop from "react-scroll-to-top";
 import Skills from "./components/Skills/Skills";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 function App() {
   const [theme, setTheme] = useState("");
+  // theme set
   const toggleTheme = () => {
     theme === "" ? setTheme("light-theme") : setTheme("");
   };
@@ -20,7 +22,7 @@ function App() {
   return (
     <>
       <ScrollToTop
-        style={{ backgroundColor: "var(--primary-color)" }}
+        style={{ backgroundColor: "var(--primary-color)", left: "-1px" }}
         smooth
         component={
           <p className="text-orange-500 mt-1 text-white">
@@ -36,6 +38,7 @@ function App() {
       <Services theme={theme} toggleTheme={toggleTheme} />
       <Contact theme={theme} toggleTheme={toggleTheme} />
       <FixedIcon />
+      <MessengerCustomerChat pageId="107809488459639" appId="737179020713512" />
     </>
   );
 }
