@@ -1,5 +1,5 @@
 .skillsCard {
-  /* background: var(--body-bg) !important; */
+  background: var(--body-bg) !important;
   /* box-shadow: inset -3px -3px 7px rgba(11, 41, 69, 1),
     inset 3px 3px 5px rgba(15, 18, 61, 1);
   border-radius: 2rem;

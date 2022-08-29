@@ -46,6 +46,6 @@
     "name": "CSS Position",
     "image": "https://i.ibb.co/tB5fBym/CSS-Position.jpg",
     "link": "https://medium.com/@sanjidanowrin11/css-position-21cecd6d4ae0",
-    "detail": "The CSS position property defines the position of an element (static,relative,absolute,fixed or sticky).Extra Properties:Top,right,bottom,left properties are able to move elements in the direction of top,right,bottom,left.Z-index is another CSS positioning property.Z-index property specifies the stack order of an element.An element with greater stack order is always in front an element with lower stack order.Z-index only works in positioned elements."
+    "detail": "The CSS position property defines the position of an element.Properties are:Top,right,bottom,left properties are able to move elements in the direction of top,right,bottom,left.Z-index is another CSS positioning property.Z-index property specifies the stack order of an element.An element with greater stack order is always in front an element with lower stack order.Z-index only works in positioned elements."
   }
 ]

@@ -2,18 +2,26 @@ import React from "react";
 import Typed from "react-typed";
 
 import "./About.css";
-const About = () => {
+const About = ({ theme, toggleTheme }) => {
   return (
     <div className="container">
       <div className="row m-0  mt-3 align-items-center">
         <div className="col-md-6 mt-5 mb-5">
-          <img
-            src="https://i.ibb.co/Jm194FF/20220518-142207-1.png"
-            className="img-fluid"
-            alt=""
-          />
+          {theme ? (
+            <img
+              src="https://i.ibb.co/nQmjJRd/final.png"
+              className="img-fluid"
+              alt=""
+            />
+          ) : (
+            <img
+              src="https://i.ibb.co/54Yr169/20220518-142207-1.png"
+              className="img-fluid"
+              alt=""
+            />
+          )}
         </div>
-        <div className="col-md-6 mb-5">
+        <div className="col-md-6 mb-5 about-background">
           <p className="nameTitle mb-2">
             Hey, I'm Sanjida Islam Nowrin!
             <img

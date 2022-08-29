@@ -7,7 +7,6 @@
 
 .contact-info {
   color: white;
-
   max-width: 500px;
   line-height: 65px;
   padding-left: 50px;
@@ -18,10 +17,10 @@
   color: var(--primary-color) !important;
 }
 .light-theme .contact-info {
-  color: var(--primary-color) !important;
+  color: black !important;
 }
 .light-theme .contact-info :hover {
-  color: black !important;
+  color: var(--primary-color) !important;
 }
 .contact-info i {
   margin-right: 20px;

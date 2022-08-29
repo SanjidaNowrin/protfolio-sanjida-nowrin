@@ -1,16 +1,12 @@
 import React from "react";
 import "./Services.css";
+import Title from "./../Hooks/Title";
 
 const Services = () => {
   return (
     <div className="container" id="services">
-      <h1
-        className="mt-5 mb-5 text-center "
-        style={{ color: "black", fontFamily: "Zilla Slab" }}
-      >
-        My <span className="fw-bolder">Services</span>
-      </h1>
-      <div className="service-row">
+      <Title before="Services" after="Services" />
+      <div className="service-row mt-5">
         <div className="service-column">
           <div className="service-card">
             <div className="icon-wrapper">

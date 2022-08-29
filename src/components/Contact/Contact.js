@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+import Title from "./../Hooks/Title";
 const Result = () => {
   return (
     <p
@@ -45,8 +46,9 @@ const Contact = () => {
     setResult(false);
   }, 5000);
   return (
-    <div id="contact">
-      <div className="contact-section  mt-3">
+    <div id="contact" className="mt-4">
+      <Title before="Contact" after="Contact Me" />
+      <div className="contact-section ">
         <div className="contact-info">
           <div>
             <i className="fas fa-map-marker-alt"></i>Chattogram,Bangladesh
@@ -64,10 +66,7 @@ const Contact = () => {
         </div>
 
         <div className="contact-form">
-          <h2 className="fw-bolder" style={{ fontFamily: "Zilla Slab" }}>
-            Get In Touch
-          </h2>
-          <form className="contact" action="" onSubmit={sendEmail}>
+          <form className="contact mt-5" action="" onSubmit={sendEmail}>
             <input
               type="text"
               name="fullName"

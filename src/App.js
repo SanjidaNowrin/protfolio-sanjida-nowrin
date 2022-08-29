@@ -9,6 +9,8 @@ import FixedIcon from "./components/FixedIcon/FixedIcon";
 import ScrollToTop from "react-scroll-to-top";
 import Skills from "./components/Skills/Skills";
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import Animation from "./components/Animation/Animation";
+
 function App() {
   const [theme, setTheme] = useState("");
   // theme set
@@ -21,6 +23,7 @@ function App() {
   }, [theme]);
   return (
     <>
+      <Animation theme={theme} />
       <ScrollToTop
         style={{ backgroundColor: "var(--primary-color)", left: "-1px" }}
         smooth

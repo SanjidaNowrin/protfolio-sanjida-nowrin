@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-multi-carousel";
 import "./Blogs.css";
+import Title from "./../Hooks/Title";
 const Blogs = ({ theme, toggleTheme }) => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
@@ -31,12 +32,14 @@ const Blogs = ({ theme, toggleTheme }) => {
     },
   };
   return (
-    <div className="container" id="blogs">
-      <h2 className="mb-5"> Responsive </h2>
+    <div className="container pb-4" id="blogs">
+      <Title before="Blogs" after="Blogs" />
       <Carousel
+        autoPlay={true}
+        autoPlaySpeed={2000}
         showDots={true}
         infinite={true}
-        className="mb-5 mx-auto "
+        className="mb-5 mx-auto mt-5"
         responsive={responsive}
       >
         {blogs.map((blog) => {

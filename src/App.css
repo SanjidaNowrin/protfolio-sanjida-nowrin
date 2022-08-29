@@ -67,9 +67,48 @@
 }
 body{
   background: var(--body-bg);
+  z-index: 1;
+  position: relative;
 }
 
 a{
   text-decoration: none;
   color: var(--link-color) !important;
+}
+/* title */
+.about-outline {
+  -webkit-text-stroke: .8px #8d8d92;
+  font-size: 7rem;
+  font-weight: 800;
+}
+.textColor{
+  color: var(--body-bg);
+  font-family: Roboto;
+}
+.secondText{
+  font-family:Roboto;
+  color: white;
+  font-size: 3rem;
+}
+.light-theme .textColor{
+  color: white;
+}
+.light-theme .secondText{
+  color: black;
+}
+@media all and (max-width: 980px) {
+  .about-outline {
+    font-size: 5rem;
+  }
+  .secondText{
+    font-size: 2.5rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .about-outline {
+    font-size: 3.5rem;
+  }
+  .secondText{
+    font-size: 2rem;
+  }
 }

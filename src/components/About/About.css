@@ -1,3 +1,6 @@
+.about-background {
+  z-index: 1;
+}
 .nameTitle {
   color: var(--primary-color) !important;
   font-family: Work Sans;
