@@ -8,7 +8,6 @@ const Skills = () => {
       .then((res) => res.json())
       .then((data) => setSkills(data));
   }, []);
-  console.log(skills);
   return (
     <div className="container mt-3 mb-5" id="skills">
       <Title before="Skills" after="Skills" />
@@ -16,7 +15,7 @@ const Skills = () => {
         {skills.map((skill) => {
           const { id, img, style, title } = skill;
           return (
-            <div className="col-lg-2 col-md-3" key={id}>
+            <div className="col-lg-2 col-sm-6 col-md-3" key={id}>
               <div
                 className="border-0 skillsCard mt-5  "
                 style={{ boxShadow: `${style}` }}

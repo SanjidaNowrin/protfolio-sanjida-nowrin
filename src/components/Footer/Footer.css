@@ -1,0 +1,8 @@
+.themeColor {
+  margin-bottom: "0px";
+  margin-top: "25px";
+}
+
+.light-theme .themeColor {
+  color: black !important;
+}

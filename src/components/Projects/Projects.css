@@ -1,0 +1,35 @@
+.imgDiv {
+  /* height: 100vh; */
+  overflow: hidden;
+}
+.imgDiv img {
+  transition: all 1.3s ease;
+  height: 17.25rem;
+  /* object-fit: cover; */
+}
+.imgDiv:hover img {
+  transform: scale(1.2);
+}
+.card-round {
+  border-radius: 12px !important;
+  background: linear-gradient(
+    45deg,
+    rgba(15, 18, 61, 1) 33%,
+    rgba(15, 18, 61, 1) 52%,
+    rgba(11, 41, 69, 1) 84%
+  );
+}
+.project-title {
+  color: var(--primary-color) !important;
+  font-family: Roboto;
+}
+.project-btn {
+  color: #52c4a5 !important;
+  font-weight: 600;
+}
+.light-theme .card-round {
+  background: rgb(255, 255, 255);
+}
+.light-theme .lightColor {
+  color: black !important;
+}

@@ -64,9 +64,11 @@ const Animation = ({ theme }) => {
           },
           move: {
             directions: "bottom",
+            bottom: "bottom",
             enable: true,
             outModes: {
-              default: "bounce",
+              default: "bounce-vertical",
+              // "bounce-vertical"
             },
             random: true,
             speed: 3,
@@ -86,7 +88,7 @@ const Animation = ({ theme }) => {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 9 },
+            value: { min: 1, max: 10 },
           },
         },
         detectRetina: true,

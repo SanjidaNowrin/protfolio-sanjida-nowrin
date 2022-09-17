@@ -4,7 +4,7 @@ import Typed from "react-typed";
 import "./About.css";
 const About = ({ theme, toggleTheme }) => {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="row m-0  mt-3 align-items-center">
         <div className="col-md-6 mt-5 mb-5">
           {theme ? (

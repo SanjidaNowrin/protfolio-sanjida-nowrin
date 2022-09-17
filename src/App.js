@@ -1,15 +1,13 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import About from "./components/About/About";
-import Blogs from "./components/Blogs/Blogs";
-import Services from "./components/Services/Services";
-import Contact from "./components/Contact/Contact";
 import FixedIcon from "./components/FixedIcon/FixedIcon";
 import ScrollToTop from "react-scroll-to-top";
-import Skills from "./components/Skills/Skills";
-import MessengerCustomerChat from "react-messenger-customer-chat";
 import Animation from "./components/Animation/Animation";
+import Home from "./components/Header/Home";
+import Details from "./components/Details/Details";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [theme, setTheme] = useState("");
@@ -23,25 +21,33 @@ function App() {
   }, [theme]);
   return (
     <>
-      <Animation theme={theme} />
-      <ScrollToTop
-        style={{ backgroundColor: "var(--primary-color)", left: "-1px" }}
-        smooth
-        component={
-          <p className="text-orange-500 mt-1 text-white">
-            <i className="fas fa-angle-double-up fa-lg"></i>
-          </p>
-        }
-      />
-      {/* scroll bar end */}
       <Header theme={theme} toggleTheme={toggleTheme} />
-      <About theme={theme} toggleTheme={toggleTheme} />
-      <Skills theme={theme} toggleTheme={toggleTheme} />
-      <Blogs theme={theme} toggleTheme={toggleTheme} />
-      <Services theme={theme} toggleTheme={toggleTheme} />
-      <Contact theme={theme} toggleTheme={toggleTheme} />
-      <FixedIcon />
-      <MessengerCustomerChat pageId="107809488459639" appId="737179020713512" />
+      <BrowserRouter>
+        <Animation theme={theme} />
+        <ScrollToTop
+          style={{ backgroundColor: "var(--primary-color)", left: "-1px" }}
+          smooth
+          component={
+            <p className="text-orange-500 mt-1 text-white">
+              <i className="fas fa-angle-double-up fa-lg"></i>
+            </p>
+          }
+        />
+        {/* scroll bar end */}
+        <Routes>
+          <Route
+            path="/"
+            element={<Home theme={theme} toggleTheme={toggleTheme} />}
+          />
+          <Route
+            path="/home"
+            element={<Home theme={theme} toggleTheme={toggleTheme} />}
+          />
+          <Route path="/detail/:detailId" element={<Details />} />
+        </Routes>
+        <FixedIcon />
+      </BrowserRouter>
+      <Footer theme={theme} toggleTheme={toggleTheme} />
     </>
   );
 }

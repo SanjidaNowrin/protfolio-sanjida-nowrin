@@ -1,0 +1,95 @@
+[
+  {
+    "id": "1",
+    "name": "HR Care",
+    "desc": "This is human resource management software also known as payroll software.",
+    "summary": [
+      "Employee Registration: There will be added new employer name, nid, birthday, father's name, mother's name, department, position etc.",
+      "Announcement Show: Shows the announcement for the employer from the administrator",
+      "Daily Attendance: Employees can input daily attendance by verifying the QR code from their ID card.",
+      "Confirm any employer by updating employer DOJ, Salary (Basic, Household, Other), etc.",
+      "Regular task assignment and performance management."
+    ],
+    "banner": "https://i.ibb.co/1dVLYTV/b1.png",
+    "images": [
+      "https://i.ibb.co/p40J2mx/1.png",
+      "https://i.ibb.co/RTwF9sm/2.png",
+      "https://i.postimg.cc/GtC3DKg7/admin.png",
+      "https://i.postimg.cc/YCZHg8h6/id.png"
+    ],
+    "client": "https://github.com/SanjidaNowrin/hr-care-client",
+    "server": "https://github.com/SanjidaNowrin/hr-care-backend",
+    "live": "https://hrcare.netlify.app/",
+    "technologies": [
+      "React.js",
+      "Material UI",
+      " Firebase",
+      "Redux Toolkit",
+      "Node.js",
+      "Mongoose",
+      "MongoDB"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "ALAMP",
+    "banner": "https://i.ibb.co/k3FmrJ5/b2.png",
+    "desc": "ALAMP is a decorative lamp lights website.To experiment. To express yourself. ",
+    "summary": [
+      "Using more products section users will be able to see all our lamps collection.",
+      "Users have review,payment and my order feature.Payment system will be updated as soon as possible.",
+      "Users can easily buy our products by login their accounts.If they visit first time in our website they need to register then they will be able to login their account.",
+      "When admin confirm their orders they will be able to see shipped in their respective account.",
+      "Admin can able to delete any orders if products are not available right now."
+    ],
+    "images": [
+      "https://i.postimg.cc/zfZP155P/oneOne.png",
+      "https://i.postimg.cc/TwCK9rVR/1a.png",
+      "https://i.postimg.cc/L5PMXS6r/3a.png",
+      "https://i.postimg.cc/dQ5CmK68/alam.png"
+    ],
+    "client": "https://github.com/SanjidaNowrin/decorative-lights-client",
+    "server": "https://github.com/SanjidaNowrin/decorative-lights-server",
+    "live": "https://decorative-lights-fcf0a.web.app/",
+    "technologies": [
+      "React.js",
+      "Bootstrap5",
+      "Firebase",
+      "Private Route",
+      "Node.js",
+      "React Router",
+      "MongoDB"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Travel Blog",
+    "banner": "https://i.ibb.co/mc5BbXx/b3-1.png",
+    "desc": "It is simply a travel blog website where the entire focus is on the world of travel.",
+    "summary": [
+      "User can sign up and sign in with Email and Password and google sign in.",
+      "Admin able to handle manage blogs ,delete any blog and approved user blog for displaying blog in UI.",
+      "Top places will be show according to blogs rating. After sign in user can read blogs and comment in the blog.",
+      "In dashboard user can write blog and see their blog in my blog section.User also can see that their publish blog status in dashboard.",
+      " Admin also can write blog and make a new admin."
+    ],
+    "images": [
+      "https://i.postimg.cc/g2q0YVxG/t7.png",
+      "https://i.postimg.cc/xdbvdFVW/t1.png",
+      "https://i.postimg.cc/76p9nGSQ/7.png",
+      "https://i.postimg.cc/BbYV5w7J/t8.png"
+    ],
+    "client": "https://github.com/SanjidaNowrin/travel-blog-agent-client",
+    "server": "https://github.com/SanjidaNowrin/travel-blog-agent-server",
+    "live": "https://travel-agent-blog.web.app/",
+    "technologies": [
+      "React.js",
+      "Bootstrap5",
+      "Firebase",
+      "Private Route",
+      "Node.js",
+      "React Router",
+      "MongoDB"
+    ]
+  }
+]
