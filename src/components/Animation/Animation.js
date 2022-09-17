@@ -71,7 +71,7 @@ const Animation = ({ theme }) => {
               // "bounce-vertical"
             },
             random: true,
-            speed: 3,
+            speed: 3.5,
             straight: false,
           },
           number: {

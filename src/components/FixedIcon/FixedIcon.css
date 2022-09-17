@@ -46,6 +46,9 @@
 .icon-bar .linkedin {
   background: #0077b5;
 }
+.icon-bar .medium {
+  background: #323538;
+}
 
 .icon-bar a i {
   padding-left: 20px;

@@ -2,28 +2,6 @@ import React from "react";
 import "./FixedIcon.css";
 const SocialLinks = () => {
   return (
-    // <div className="fixed-icon d-lg-flex flex-column position-fixed">
-    //   <ul>
-    //     {links.map(({ id, child, href, style, download }) => (
-    //       <li
-    //         key={id}
-    //         className={
-    //           "d-flex justify-content-between align-items-center w-100 h-50 set-icons"
-    //         }
-    //       >
-    //         <a
-    //           href={href}
-    //           className="d-flex justify-content-between align-items-center w-full text-white"
-    //           download={download}
-    //           target="_blank"
-    //           rel="noreferrer"
-    //         >
-    //           {child}
-    //         </a>
-    //       </li>
-    //     ))}
-    //   </ul>
-    // </div>
     <div className="icon-bar">
       <a
         href="https://www.facebook.com/sanjida.nowrin.90"
@@ -48,6 +26,14 @@ const SocialLinks = () => {
         target="_blank"
       >
         Email<i className="fas fa-envelope"></i>
+      </a>
+      <a
+        rel="noreferrer"
+        href="https://medium.com/@sanjidanowrin11"
+        className="medium"
+        target="_blank"
+      >
+        Medium<i className="fab fa-medium"></i>
       </a>
       <a
         rel="noreferrer"

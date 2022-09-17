@@ -61,7 +61,7 @@ const Contact = () => {
             <i className="fas fa-phone"></i>+8801571736418
           </div>
           <div>
-            <i className="fas fa-clock"></i>Mon - Fri 8:00 AM to 10:00 PM
+            <i className="fas fa-clock"></i>8:00 AM to 10:00 PM
           </div>
         </div>
 

@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 
-import { HashLink } from "react-router-hash-link";
 const Header = ({ toggleTheme, theme }) => {
   const navLinks = [
-    { path: "#about", display: "About" },
-    { path: "#skills", display: "Skills" },
-    { path: "#projects", display: "Projects" },
-    { path: "#blogs", display: "Blogs" },
-    { path: "#services", display: "Services" },
-    { path: "#contact", display: "Contact Me" },
+    { path: "/home#about", display: "About" },
+    { path: "/home#skills", display: "Skills" },
+    { path: "/home#projects", display: "Projects" },
+    { path: "/home#blogs", display: "Blogs" },
+    { path: "/home#services", display: "Services" },
+    { path: "/home#contact", display: "Contact Me" },
   ];
 
   const [isSticky, setSticky] = useState(false);
@@ -48,11 +47,7 @@ const Header = ({ toggleTheme, theme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="mx-auto navbar-nav me-auto mb-2 mb-lg-0">
             {navLinks.map((item, index) => (
-              <li
-                as={HashLink}
-                key={index}
-                className="nav-item ps-4 text-uppercase"
-              >
+              <li key={index} className="nav-item ps-4 text-uppercase">
                 <a
                   className="nav-link active menu-item"
                   aria-current="page"

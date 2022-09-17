@@ -9,9 +9,9 @@ const Projects = ({ theme }) => {
 
   let navigate = useNavigate();
   return (
-    <div className="container" id="projects">
+    <div className="container mb-4" id="projects">
       <Title before="Projects" after="My Latest Work" />
-      <div className="row m-0 container">
+      <div className="row m-0 container mt-4">
         {projects.map((project) => {
           return (
             <div className="col-md-4 gx-5 mb-5" key={project.id}>
@@ -30,7 +30,7 @@ const Projects = ({ theme }) => {
                   </p>
                   <button
                     className="btn btn p-0 project-btn"
-                    onClick={() => navigate(`/detail/${project.id}`)}
+                    onClick={() => navigate(`/projects/${project.id}`)}
                   >
                     Details
                     <BsFillArrowRightCircleFill className="ms-2" />

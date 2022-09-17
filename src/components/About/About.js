@@ -5,7 +5,7 @@ import "./About.css";
 const About = ({ theme, toggleTheme }) => {
   return (
     <div className="container" id="about">
-      <div className="row m-0  mt-3 align-items-center">
+      <div className="row m-0  align-items-center">
         <div className="col-md-6 mt-5 mb-5">
           {theme ? (
             <img

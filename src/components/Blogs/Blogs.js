@@ -32,14 +32,14 @@ const Blogs = ({ theme, toggleTheme }) => {
     },
   };
   return (
-    <div className="container pb-4" id="blogs">
+    <div className="container pb-5" id="blogs">
       <Title before="Blogs" after="Blogs" />
       <Carousel
         autoPlay={true}
         autoPlaySpeed={2000}
         showDots={true}
         infinite={true}
-        className="mb-5 mx-auto mt-5"
+        className="mb-5 mx-auto mt-4"
         responsive={responsive}
       >
         {blogs.map((blog) => {

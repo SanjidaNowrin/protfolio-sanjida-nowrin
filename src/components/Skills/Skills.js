@@ -9,7 +9,7 @@ const Skills = () => {
       .then((data) => setSkills(data));
   }, []);
   return (
-    <div className="container mt-3 mb-5" id="skills">
+    <div className="container mt-3 mb-4" id="skills">
       <Title before="Skills" after="Skills" />
       <div className="row m-0 gx-5">
         {skills.map((skill) => {

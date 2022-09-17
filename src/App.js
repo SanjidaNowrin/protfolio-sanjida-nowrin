@@ -43,7 +43,7 @@ function App() {
             path="/home"
             element={<Home theme={theme} toggleTheme={toggleTheme} />}
           />
-          <Route path="/detail/:detailId" element={<Details />} />
+          <Route path="/projects/:detailId" element={<Details />} />
         </Routes>
         <FixedIcon />
       </BrowserRouter>

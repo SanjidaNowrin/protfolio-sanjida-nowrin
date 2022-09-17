@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className="container" id="services">
       <Title before="Services" after="Services" />
-      <div className="service-row mt-5">
+      <div className="service-row mt-4 mb-4">
         <div className="service-column">
           <div className="service-card">
             <div className="icon-wrapper">
