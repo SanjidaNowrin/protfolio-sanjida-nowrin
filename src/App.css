@@ -103,6 +103,7 @@ a{
   .secondText{
     font-size: 2.5rem;
   }
+  
 }
 @media all and (max-width: 480px) {
   .about-outline {
