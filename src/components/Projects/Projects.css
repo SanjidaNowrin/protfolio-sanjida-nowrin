@@ -27,6 +27,11 @@
   color: #52c4a5 !important;
   font-weight: 600;
 }
+.project-btn :hover {
+  background: var(--link-color) !important;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
 .light-theme .card-round {
   background: rgb(255, 255, 255);
 }

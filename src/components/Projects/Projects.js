@@ -32,8 +32,10 @@ const Projects = ({ theme }) => {
                     className="btn btn p-0 project-btn"
                     onClick={() => navigate(`/projects/${project.id}`)}
                   >
-                    Details
-                    <BsFillArrowRightCircleFill className="ms-2" />
+                    <div>
+                      Details
+                      <BsFillArrowRightCircleFill className="ms-2" />
+                    </div>
                   </button>
                 </div>
               </div>

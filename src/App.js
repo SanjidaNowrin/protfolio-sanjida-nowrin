@@ -25,7 +25,7 @@ function App() {
       <BrowserRouter>
         <Animation theme={theme} />
         <ScrollToTop
-          style={{ backgroundColor: "var(--primary-color)", left: "-1px" }}
+          style={{ backgroundColor: "var(--primary-color)", top: "550px" }}
           smooth
           component={
             <p className="text-orange-500 mt-1 text-white">
